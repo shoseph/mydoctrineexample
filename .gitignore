@@ -2,3 +2,5 @@
 #ignoring the project of netbeans
 /nbproject/
 /nbproject/*
+
+composer*
