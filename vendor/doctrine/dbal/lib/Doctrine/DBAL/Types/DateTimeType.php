@@ -48,7 +48,7 @@ class DateTimeType extends Type
      * {@inheritdoc}
      */
     public function convertToDatabaseValue($value, AbstractPlatform $platform)
-    {
+    {   
         return ($value !== null)
             ? $value->format($platform->getDateTimeFormatString()) : null;
     }
